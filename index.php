@@ -32,7 +32,7 @@ catch (Exception $e){
 
 	<head>
 		<title>Dashboard</title>
-			<link rel="stylesheet" type="text/css" href="div.css"></link>
+			<link rel="stylesheet" type="text/css" href="misc/div.css"></link>
 			<script type="text/javascript" language="javascript" src="https://datatables.net/release-datatables/media/js/jquery.js"></script>
 			<script type="text/javascript" language="javascript" src="https://datatables.net/release-datatables/media/js/jquery.dataTables.js"></script>
 			<script type="text/javascript" language="javascript" src="https://datatables.net/release-datatables/extensions/ColVis/js/dataTables.colVis.js"></script>
