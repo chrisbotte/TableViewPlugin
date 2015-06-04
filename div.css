@@ -1,0 +1,225 @@
+body {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-family: verdana, arial, helvetica, sans-serif;
+	color: #ccc;
+	background-color: #333;
+	}
+
+div{
+	border-radius: 5px;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color:  blue;
+	outline: none;
+	}
+a:visited {
+	color:  blue;
+	}
+a:active {
+	color:  blue;
+	}
+a:hover {
+	color: blue;
+	text-decoration: underline;
+	}
+
+.ahem {
+	display: none;
+	}
+
+strong, b {
+	font-weight: bold;
+	}
+
+p {
+	font-size: 12px;
+	line-height: 22px;
+	margin-top: 20px;
+	margin-bottom: 10px; 
+	}
+
+td, th{
+	white-space:nowrap;
+	color:black;
+}
+
+/* weird ie5win bug: all line-height to font-size ratios must agree or box gets pushed around. UPDATE: this has turned out to be very rare. my current recommendation is IGNORE this warning. at the moment i'm leaving it in only in case the issue turns up again. possibly the original bug in march 2001 was caused by an unusual combination of factors, although this solved it at the time.*/
+
+h1 , .title {
+	font-size: 28px;
+	line-height: 44px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+h2 {
+	font-size: 18px;
+	line-height: 40px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+h3 {
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+h4 {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+h5 {
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+h6 {
+	font-size: 10px;
+	line-height: 18px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+img {
+	border: 0;
+	}
+.nowrap {
+	white-space: nowrap;
+	font-size: 10px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+
+	}
+.tiny {
+	font-size: 9px;
+	line-height: 16px;
+	margin-top: 15px;
+	margin-bottom: 5px; 
+	}	
+#top {
+	margin: 20px 20px 0px 20px;
+	padding: 10px;
+	border: 5px solid #ccc;
+	background: #666;
+	height: 100%; 
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	height: 70px;
+	width:100%;
+	}
+html>body #top {
+	height: 70px; 
+	width:2000px;
+	}
+#left {
+	position: absolute;
+	top: 120px;
+	left: 0px;
+	margin: 20px;
+	padding: 10px;
+	border: 5px solid #ccc;
+	background: #666;
+	width: 150px; 
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 180px;
+	}
+
+#middle {
+	margin: 20px 270px 20px 270px;
+	padding: 10px;
+	border: 5px solid #ccc;
+	background: #666;
+	width:1750px;
+	height:1000px;
+	overflow: scroll;
+	}
+
+#right {
+	position: absolute;
+	top: 120px;
+	right: 0px; /* Opera5.02 will show a space at right when there is no scroll bar */
+	margin: 20px;
+	padding: 10px;
+	border: 5px solid #ccc;
+	background: #666;
+	width: 150px; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 120px;
+	}
+
+html>body #right {
+	width: 120px; /* ie5win fudge ends */
+}
+
+pre {
+	font-size: 12px;
+	line-height: 22px;
+	margin-top: 20px;
+	margin-bottom: 10px; 
+}
+
+.radio_filter, .dfilter, .butt{
+	border-radius: 5px;
+	border: 0px;
+	padding: 6px;
+}
+
+.rgroup{
+	padding-bottom: 10px;
+}
+
+.rlabel{
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.sgrp{
+	text-align: left;
+}
+
+.manual{
+	/*background-color: green;*/
+	color: green;
+}
+
+
+.calc_total{
+	color: blue;
+	font-weight: 800;
+	text-align: right;
+}
+
+.calc_hdr{
+	font-weight: 800;
+}
+
+.calc_detail > td{
+	font-weight: 100;
+	font-size: 12px;
+	border-bottom: 1px solid black;
+	padding: 5px;
+	text-align: right;
+}
+
+span.calc_detail{
+	font-weight: 800;
+	font-size: 18px;
+}
+
+.summary{
+	width:150px;
+}
