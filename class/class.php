@@ -1,7 +1,7 @@
 <?php
 
 require_once 'fcns/phpfcns.php';
-require_once 'RestCallRequest.php';
+require_once 'misc/RestCallRequest.php';
 define(SRCH_ALL, "-99999");
 
 // sample of tv_config object:
@@ -101,7 +101,7 @@ class tv_config{
 		$this->meta = getFieldInfo($c);
 		$this->pid = $pid;
 
-		$json_data = file_get_contents('config_'.$this->pid.'.json');
+		$json_data = file_get_contents('misc/config_'.$this->pid.'.json');
 		
 		//err handling...
 		if($json_data !== FALSE)

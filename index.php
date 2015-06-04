@@ -1,7 +1,7 @@
 
 <?php
 require_once '../../redcap_connect.php';
-require_once 'RestCallRequest.php';
+require_once 'misc/RestCallRequest.php';
 require_once 'fcns/phpfcns.php';
 require_once 'class/class.php';
 
